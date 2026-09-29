@@ -1,11 +1,10 @@
 """
-#Question 2: Enhanced Guessing Game with Hints
+#Question2: Enhanced Guessing Game with Hints
 Develop an enhanced guessing game with intelligent hint system:
 Core Features:
 
 Random number between 1-100
 Unlimited attempts
-
 Progressive hint system:
 
     After 3 wrong guesses: Show if number is odd/even
@@ -13,7 +12,7 @@ Progressive hint system:
     After 7 wrong guesses: Narrow the range to 25-number window
     After 10 wrong guesses: Show first digit
     
-Example 
+   Example 
     === Enhanced GUESSING GAME ===
     Guess my number between 1 and 100!
     You have unlimited attempts.
@@ -28,7 +27,7 @@ Example
     Too low! Try again.
     HINT: The number is even
     
-    ...
+    ......
     
     Attempt 5 - Enter your guess: 20
     Too high! Try again.
@@ -55,9 +54,8 @@ def get_divisibility_hint(number):
         return "HINT: The number is divisible by 5"
     else:
         return "HINT: The number is NOT divisible by 3 or 5"
-
 def get_range_hint(number, current_min=1, current_max=100):
-    # Return narrowed range around the number
+    
     pass
 
 def get_thefirst_digit_hint(number):
