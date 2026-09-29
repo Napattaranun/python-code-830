@@ -24,10 +24,10 @@ try:
 
     result = 0
     if operator == "+":
-        result = number1 + 
+        result = number1 + number2
     elif operator == "-":
         result = number1 - number2
-    elif operator == "*":เึ
+    elif operator == "*":
         result = number1 * number2
     elif operator == "/":
         result = number1 / number2
@@ -44,4 +44,5 @@ except ZeroDivisionError:
 
 finally:
     print("จบการทำงาน") 
+  
   
