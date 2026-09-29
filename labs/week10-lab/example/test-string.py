@@ -1,5 +1,5 @@
 print("\n=== READING AND CONVERTING ===")
-# Note: Using input() instead of raw_input() for Python 3
+
 name = input("Enter your name: ")
 print(f"Hello {name}")
 

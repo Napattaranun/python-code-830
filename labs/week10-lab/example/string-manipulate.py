@@ -381,7 +381,7 @@ text = "programming"
 print(f"Original: {text}")
 print(f"Method 1 (slicing): {text[::-1]}")
 
-# Method 2: Using loop
+
 reversed_str = ""
 for char in text:
     reversed_str = char + reversed_str

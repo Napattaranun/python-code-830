@@ -14,7 +14,7 @@ count = 0 #ตัวแปรนี้ทำหน้าที่ในการ
 text = input('Input you text') #กำหนดตัวอักษร
 x = input('Which character do you want to count : ')
 
-for letter in text: #สำหรับตัวอักษรใน text
+for letter in text: 
     if letter == 'x':
         count += 1 
 print(f"{count} letters 'x' found in '{text}'")

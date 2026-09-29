@@ -18,14 +18,13 @@ has_alpha = False
 at_count = password.count('@') # นับจำนวนตัว @ ใน string
 is_long_enough = len(password) > 8 # ตรวจสอบความยาวว่ามากกว่า 8 หรือไม่
 
-# วนลูปตรวจเช็คอักขระแต่ละตัวในรหัสผ่าน
 for char in password:
     if char.isdigit():  
         has_digit = True
     elif char.isalpha():  
         has_alpha = True
 
-# ตรวจสอบเงื่อนไขทั้งหมด: ต้องยาวกว่า 8, มีตัวเลข, มีตัวอักษร และมี @ แค่ 1 ตัว
+
 if is_long_enough and has_digit and has_alpha and at_count == 1:
     print("Your password is strong!")
 else:
